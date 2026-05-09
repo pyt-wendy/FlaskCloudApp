@@ -1,4 +1,16 @@
-venv/ 
-__pycache__/ 
-*.pyc 
-.vercel
+# Ignore IDE hidden folders
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore XAMPP hidden temp files if any
+Thumbs.db
+.DS_Store
+
+# Ignore Gemini artifacts
+.gemini/
+
+# We DO NOT ignore the uploads/ directory because we want to push the product images!
+!uploads/
